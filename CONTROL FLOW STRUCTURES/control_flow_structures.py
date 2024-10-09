@@ -40,6 +40,16 @@ else:
     print(f"You bought fish from the market.")
 
 #Using logical operators ("or" "and" )
+type_of_food = input("Enter the type of food bought:  ").lower()
+if type_of_food == "chicken" or type_of_food == "liver" or type_of_food == "fish":
+    if type_of_food == "chicken":
+        print("You bought chicken from the market.")
+    elif type_of_food == "liver":
+        print("You bought liver from the market.")
+    elif type_of_food == "fish":
+        print("You bought fish from the market.")
+else:
+    print("Invalid input. Please choose from chicken,liver or fish.")
 
 
        
